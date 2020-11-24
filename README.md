@@ -6,6 +6,10 @@
 2. 모듈이 아니라 적용할 시트의 코드 창에 아래의 코드를 모두 넣는다.
 3. 매크로 직접 실행으로 Format 실행
 
+## 코드
+<details>
+    <summary>코드보기</summary>
+
 ```
 Private Sub Worksheet_SelectionChange(ByVal Target As Range)
     Cells(1, 8) = "=rows(" + Selection.Address + ")"
@@ -199,3 +203,5 @@ Private Sub Worksheet_Activate()
     Cells(4, 7).Select
 End Sub
 ```
+
+</details>
