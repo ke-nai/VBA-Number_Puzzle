@@ -1,5 +1,7 @@
 # VBA-Number_Puzzle
 ![Number_Puzzle](https://user-images.githubusercontent.com/66747535/100056576-39237180-2e69-11eb-929f-1c9b68246ea9.gif)
+
+
 엑셀에서 VBA 매크로를 통해 실행할 수 있는 숫자 퍼즐 게임이다.
 
 ## 적용법
